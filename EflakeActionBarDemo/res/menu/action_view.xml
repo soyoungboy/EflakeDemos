@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+   >
+
+    <!-- 默认情况下，操作项仅显示图标。如果你要显示文本标题，就要给android:showAsAction属性添加withText设置
+    	 分离位置：100-，溢出菜单右下角，其余按数字大小依次向左排列 -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_access_accounts"
+        android:icon="@drawable/action_button_device_access_screen_rotation"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="rotation"/>
+    <item
+        android:id="@+id/action_airplane"
+        android:icon="@drawable/action_button_alerts_and_states_airplane_mode_on"
+        android:orderInCategory="300"
+        android:showAsAction="ifRoom"
+        android:title="airplane"/>
+    <item
+        android:id="@+id/action_rotation"
+        android:icon="@drawable/action_button_access_accounts"
+        android:orderInCategory="400"
+        android:showAsAction="ifRoom"
+        android:title="account"/>
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/action_view_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="search"/>
+
+</menu>

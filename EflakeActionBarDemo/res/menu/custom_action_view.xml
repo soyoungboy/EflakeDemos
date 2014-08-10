@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <!-- android:showAsAction="ifRoom|collapseActionView"  collapseActionView代表是不是要收起 -->
+    <item
+        android:id="@+id/item1"
+        android:actionLayout="@layout/custom_action_view"
+        android:icon="@drawable/action_button_device_access_screen_rotation"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="111">
+    </item>
+
+</menu>

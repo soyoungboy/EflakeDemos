@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eflake_Style</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="MainActivity">Actionbar_Style</string>
+    <string name="ScrollTabsActionbarActivity">ScrollTab_Actionbar</string>
+    <string name="SpinnerActionbarActivity">Spinner_Actionbar</string>
+    <string name="ActionViewActivity">ActionViewActivity</string>
+    <string name="ActionViewCustomActivity">ActionViewCustomActivity</string>
+    <string name="SpiltActionBarActivity">SpiltActionBarActivity</string>
+    <string-array name="drop_list">
+          <item>Navigation_one</item>
+        <item>Navigation_two</item>
+        <item>Navigation_three</item>
+    </string-array>
+</resources>
